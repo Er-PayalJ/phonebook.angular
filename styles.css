@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.edit {
+    background: orange;
+    color: white;
+    border: none;
+}
+
+.delete {
+    background: red;
+    color: white;
+    border: none;
+}
